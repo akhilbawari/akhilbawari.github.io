@@ -266,7 +266,7 @@ section .title::after {
 .services,
 .project {
   color: #fff;
-  background: #111;
+  background: #393E46;
 }
 .services .title::before,
 .project .title::before {
@@ -274,8 +274,9 @@ section .title::after {
 }
 .services .title::after,
 .project .title::after {
-  background: #111;
-  content: "My Git Cal";
+  background: #393E46;
+  content: "Git Calendar";
+  color: #f1f1f1;
 }
 .services .serv-content .card {
   width: calc(33% - 20px);
@@ -319,7 +320,7 @@ section .title::after {
   transition: all 0.3s ease;
 }
 .skills .title::after {
-  content: "what i know";
+  content: "What I Know";
 }
 
 /* skills right column */
@@ -399,7 +400,7 @@ section .title::after {
 
 /* project section styling */
 .project .title::after {
-  content: "see my work";
+  content: "See My Work";
 }
 .project .carousel .card {
   background: #222;
@@ -441,15 +442,16 @@ section .title::after {
 .repo-div {
   display: flex;
   width: 35%;
-  border: 1px solid white;
   justify-content: center;
   align-items: center;
+  font-size: 200%;
 }
+
 
 .demo-div {
   display: flex;
   width: 35%;
-  border: 1px solid white;
+  font-size: 200%;
   justify-content: center;
   align-items: center;
 }
@@ -506,7 +508,7 @@ section .title::after {
 
 /* contact section styling */
 .contact .title::after {
-  content: "get in touch";
+  content: "Get In Touch";
 }
 .contact .contact-content .column {
   width: calc(50% - 30px);
@@ -609,7 +611,7 @@ section .title::after {
 }
 /* footer section styling */
 footer {
-  background: #111;
+  background: #393E46;
   padding: 15px 23px;
   color: #fff;
   text-align: center;

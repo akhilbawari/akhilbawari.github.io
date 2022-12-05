@@ -318,6 +318,7 @@ section .title::after {
   border-radius: 5%;
   /* border: 5px solid crimson; */
   transition: all 0.3s ease;
+  margin-left: 50%;
 }
 .skills .title::after {
   content: "What I Know";

@@ -623,6 +623,9 @@ footer span a {
 footer span a:hover {
   text-decoration: underline;
 }
+.github-images{
+  margin-left: 30%;
+}
 
 /* responsive media query start */
 @media (max-width: 1104px) {
@@ -717,7 +720,14 @@ footer span a:hover {
   }
   .services .serv-content .card {
     width: 100%;
+  }.github-images>img{
+    width: 90%;
+
   }
+  .github-images{
+    margin-left: 10%;
+  }
+  
 }
 
 @media (max-width: 500px) {
@@ -749,4 +759,5 @@ footer span a:hover {
     font-size: 23px;
     line-height: 38px;
   }
+  
 }
